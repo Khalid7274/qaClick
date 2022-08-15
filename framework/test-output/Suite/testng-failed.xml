@@ -9,8 +9,9 @@
       <class name="testCases.homePageTest">
         <methods>
           <include name="tearDown"/>
-          <include name="titleValidation"/>
           <include name="beforesuite"/>
+          <include name="titleValidation"/>
+          <include name="afterSuite"/>
           <include name="mybeforeMethod"/>
         </methods>
       </class> <!-- testCases.homePageTest -->

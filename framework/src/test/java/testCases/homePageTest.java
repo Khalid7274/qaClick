@@ -30,7 +30,7 @@ public class homePageTest extends BaseClass{
 		HomePage homePage=new HomePage();
 		//compare the text from the browser with actual text . -Error
 		Log.debug("Featured Course Validation");
-		String expected="FEATURED COURSES";
+		String expected="FEATURED COURSESs";
 		String actualText=homePage.getTitle().getText();
 		Assert.assertEquals(actualText, expected);
 		Log.info("Successfully validated text message");
