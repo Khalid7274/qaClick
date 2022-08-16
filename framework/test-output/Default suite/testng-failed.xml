@@ -5,10 +5,10 @@
     <classes>
       <class name="testCases.homePageTest">
         <methods>
-          <include name="validationOfNavbar"/>
           <include name="tearDown"/>
           <include name="beforesuite"/>
-          <include name="loginTest"/>
+          <include name="titleValidation"/>
+          <include name="afterSuite"/>
           <include name="mybeforeMethod"/>
         </methods>
       </class> <!-- testCases.homePageTest -->
