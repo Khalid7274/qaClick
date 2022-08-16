@@ -13,7 +13,7 @@ public class ExtentManager {
 	
 	public static ExtentReports setExtent() {
 		
-		 htmlReporter=new ExtentSparkReporter(System.getProperty("user.dir")+"/reports/extentReport/"+"indexReport.html");
+		 htmlReporter=new ExtentSparkReporter(System.getProperty("user.dir")+"/reports/"+"indexReport.html");
 		 htmlReporter.config().setReportName("Web Automation Result");
 		 htmlReporter.config().setDocumentTitle("Test Result");
 		 
