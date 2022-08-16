@@ -48,12 +48,13 @@ public class Listeners extends BaseClass implements ITestListener{
 	public void onTestFailure(ITestResult result) {
 		 extentTest.get().fail(result.getThrowable());
 		String distinationFile= System.getProperty("user.dir")+"\\reports\\"+currentDate+" - "+result.getName()+".png";
-		String finalDist=distinationFile;
+		
 		File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		String imagePath="http://localhost:9595/job/FrameWorkProject/ws/framework/reports/"+currentDate+" - "+result.getName()+".png";
 		try {
 			FileUtils.copyFile(src, new File(distinationFile));
 			//extentTest.get().addScreenCaptureFromPath(distinationFile, result.getName());
-			extentTest.get().fail(result.getName(),MediaEntityBuilder.createScreenCaptureFromPath(finalDist).build());
+			extentTest.get().fail(result.getName(),MediaEntityBuilder.createScreenCaptureFromPath(imagePath).build());
 		
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
