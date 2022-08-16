@@ -53,8 +53,8 @@ public class Listeners extends BaseClass implements ITestListener{
 		try {
 			//FileUtils.copyFile(src, new File(("C:\\Users\\naimt\\eclipse-workspace\\framework\\screenshots\\"+currentDate+" - "+result.getName()+".png")));
 			FileUtils.copyFile(src, new File(distinationFile));
-			//extentTest.get().addScreenCaptureFromPath(distinationFile, result.getName());
-			extentTest.get().fail(result.getName(),MediaEntityBuilder.createScreenCaptureFromPath(distinationFile).build());
+			extentTest.get().addScreenCaptureFromPath(distinationFile, result.getName());
+			//extentTest.get().fail(result.getName(),MediaEntityBuilder.createScreenCaptureFromPath(distinationFile).build());
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
