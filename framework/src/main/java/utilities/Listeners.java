@@ -47,7 +47,7 @@ public class Listeners extends BaseClass implements ITestListener{
 	@Override
 	public void onTestFailure(ITestResult result) {
 		 extentTest.get().fail(result.getThrowable());
-		String distinationFile= System.getProperty("user.dir")+"\\reports\\"+currentDate+" - "+result.getName()+".png";
+		String distinationFile= System.getProperty("user.dir")+"\\reports\\"+result.getName()+".png";
 		
 		File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 	
