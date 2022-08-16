@@ -54,8 +54,8 @@ public class Listeners extends BaseClass implements ITestListener{
 		try {
 			FileUtils.copyFile(src, new File(distinationFile));
 			//extentTest.get().addScreenCaptureFromPath(distinationFile, result.getName());
-			//extentTest.get().fail(result.getName(),MediaEntityBuilder.createScreenCaptureFromPath(distinationFile).build());
-			extentTest.get().fail(MediaEntityBuilder.createScreenCaptureFromPath(distinationFile, result.getName()).build());
+			extentTest.get().fail(result.getName(),MediaEntityBuilder.createScreenCaptureFromPath(distinationFile).build());
+		
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
