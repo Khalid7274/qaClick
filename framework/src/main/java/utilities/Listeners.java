@@ -27,7 +27,6 @@ public class Listeners extends BaseClass implements ITestListener{
 	
 	ThreadLocal<ExtentTest> extentTest= new ThreadLocal<ExtentTest>();
 	
-	
 	DateFormat dateFormat=new  SimpleDateFormat("yy-MM-dd");
 	Date date=new Date();
 	String currentDate=dateFormat.format(date);
@@ -50,6 +49,7 @@ public class Listeners extends BaseClass implements ITestListener{
 		String distinationFile= System.getProperty("user.dir")+"\\reports\\"+currentDate+" - "+result.getName()+".png";
 		
 		File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		//for jenkins part
 		String imagePath="http://localhost:9595/job/FrameWorkProject/ws/framework/reports/"+currentDate+" - "+result.getName()+".png";
 		try {
 			FileUtils.copyFile(src, new File(distinationFile));
