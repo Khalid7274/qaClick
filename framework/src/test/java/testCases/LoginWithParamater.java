@@ -21,7 +21,7 @@ public class LoginWithParamater extends BaseClass{
 		inicilizeDriver();
 	}
 	
-	@Test(dataProvider="getData")
+	@Test(groups="smoke",dataProvider="getData")
 	public void loginTest(String name, String pass, String text) {
 		HomePage homePage=new HomePage();
 		loginPage=homePage.getLogin();

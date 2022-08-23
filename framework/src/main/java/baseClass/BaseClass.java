@@ -38,7 +38,7 @@ public class BaseClass {
 		FileInputStream fis=new FileInputStream(System.getProperty("user.dir") + "\\configration\\config.properties");
 		
 		prop.load(fis);
-		String browserName=prop.getProperty("browser");
+		String browserName=System.getProperty("browser");
 		
 		if(browserName.equalsIgnoreCase("chrome")) {
 			//execute in Chrome driver 

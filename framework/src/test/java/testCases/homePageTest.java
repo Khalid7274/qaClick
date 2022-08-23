@@ -23,7 +23,7 @@ public class homePageTest extends BaseClass{
 		inicilizeDriver();
 	}
 	
-	@Test
+	@Test(groups={"smoke","sanity","regression"})
 	public void titleValidation() {
 		Log.startTest("loginTest");
 		Log.info("Home Page is Opened");
@@ -37,7 +37,7 @@ public class homePageTest extends BaseClass{
 		Log.endTest("ltitleValidation");
 	}
 	
-	@Test
+	@Test(groups={"smoke","regression"})
 	public void validationOfNavbar() {
 		HomePage homePage=new HomePage();
 		Log.startTest("validationOfNavbar");
