@@ -48,9 +48,14 @@ public class BaseClass {
 		if(browserName.equalsIgnoreCase("chrome")) {
 			//execute in Chrome driver 
 			WebDriverManager.chromedriver().setup();
+			driver=new ChromeDriver();
+			System.out.println("Browser is: "+prop.getProperty("browser"));
+		}else if(browserName.equalsIgnoreCase("chromeheadless")){
+			WebDriverManager.chromedriver().setup();
 			driver=new ChromeDriver(options);
 			System.out.println("Browser is: "+prop.getProperty("browser"));
-		}else if(browserName.equalsIgnoreCase("firefox")){
+		}
+		else if(browserName.equalsIgnoreCase("firefox")){
 			//execute in firefox driver
 			WebDriverManager.firefoxdriver().setup();
 			 driver=new FirefoxDriver();
