@@ -2,7 +2,7 @@
 <testng-results ignored="4" total="9" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-17T17:51:28 EDT" name="Suite" finished-at="2022-08-17T17:52:13 EDT" duration-ms="45144">
+  <suite started-at="2022-08-24T10:06:22 EDT" name="Suite" finished-at="2022-08-24T10:07:05 EDT" duration-ms="43557">
     <groups>
       <group name="regression">
         <method signature="homePageTest.titleValidation()[pri:0, instance:testCases.homePageTest@565f390]" name="titleValidation" class="testCases.homePageTest"/>
@@ -17,35 +17,35 @@
         <method signature="homePageTest.titleValidation()[pri:0, instance:testCases.homePageTest@565f390]" name="titleValidation" class="testCases.homePageTest"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2022-08-17T17:51:28 EDT" name="Test" finished-at="2022-08-17T17:52:13 EDT" duration-ms="45144">
+    <test started-at="2022-08-24T10:06:22 EDT" name="Test" finished-at="2022-08-24T10:07:05 EDT" duration-ms="43557">
       <class name="testCases.LoginPageTest">
-        <test-method is-config="true" signature="beforesuite()[pri:0, instance:testCases.LoginPageTest@6f36c2f0]" started-at="2022-08-17T17:51:28 EDT" name="beforesuite" finished-at="2022-08-17T17:51:28 EDT" duration-ms="68" status="PASS">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:testCases.LoginPageTest@6f36c2f0]" started-at="2022-08-24T10:06:22 EDT" name="beforesuite" finished-at="2022-08-24T10:06:22 EDT" duration-ms="56" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforesuite -->
-        <test-method is-config="true" signature="mybeforeMethod()[pri:0, instance:testCases.LoginPageTest@6f36c2f0]" started-at="2022-08-17T17:51:28 EDT" name="mybeforeMethod" finished-at="2022-08-17T17:51:35 EDT" duration-ms="7113" status="PASS">
+        <test-method is-config="true" signature="mybeforeMethod()[pri:0, instance:testCases.LoginPageTest@6f36c2f0]" started-at="2022-08-24T10:06:22 EDT" name="mybeforeMethod" finished-at="2022-08-24T10:06:28 EDT" duration-ms="6855" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mybeforeMethod -->
-        <test-method signature="loginTest()[pri:0, instance:testCases.LoginPageTest@6f36c2f0]" started-at="2022-08-17T17:51:35 EDT" name="loginTest" finished-at="2022-08-17T17:51:37 EDT" duration-ms="2231" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:testCases.LoginPageTest@6f36c2f0]" started-at="2022-08-24T10:06:28 EDT" name="loginTest" finished-at="2022-08-24T10:06:31 EDT" duration-ms="2550" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPageTest@6f36c2f0]" started-at="2022-08-17T17:51:37 EDT" name="tearDown" finished-at="2022-08-17T17:51:38 EDT" duration-ms="946" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPageTest@6f36c2f0]" started-at="2022-08-24T10:06:31 EDT" name="tearDown" finished-at="2022-08-24T10:06:32 EDT" duration-ms="666" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testCases.LoginPageTest@6f36c2f0]" started-at="2022-08-17T17:52:14 EDT" name="afterSuite" finished-at="2022-08-17T17:52:14 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testCases.LoginPageTest@6f36c2f0]" started-at="2022-08-24T10:07:06 EDT" name="afterSuite" finished-at="2022-08-24T10:07:06 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- testCases.LoginPageTest -->
       <class name="testCases.LoginWithParamater">
-        <test-method is-config="true" signature="mybeforeMethod()[pri:0, instance:testCases.LoginWithParamater@7dc3712]" started-at="2022-08-17T17:51:55 EDT" name="mybeforeMethod" finished-at="2022-08-17T17:52:02 EDT" duration-ms="6349" status="PASS">
+        <test-method is-config="true" signature="mybeforeMethod()[pri:0, instance:testCases.LoginWithParamater@7dc3712]" started-at="2022-08-24T10:06:47 EDT" name="mybeforeMethod" finished-at="2022-08-24T10:06:53 EDT" duration-ms="6707" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mybeforeMethod -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginWithParamater@7dc3712]" started-at="2022-08-17T17:52:02 EDT" name="loginTest" data-provider="getData" finished-at="2022-08-17T17:52:04 EDT" duration-ms="2027" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginWithParamater@7dc3712]" started-at="2022-08-24T10:06:53 EDT" name="loginTest" data-provider="getData" finished-at="2022-08-24T10:06:55 EDT" duration-ms="1960" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -66,15 +66,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginWithParamater@7dc3712]" started-at="2022-08-17T17:52:04 EDT" name="tearDown" finished-at="2022-08-17T17:52:05 EDT" duration-ms="871" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginWithParamater@7dc3712]" started-at="2022-08-24T10:06:55 EDT" name="tearDown" finished-at="2022-08-24T10:06:56 EDT" duration-ms="680" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="mybeforeMethod()[pri:0, instance:testCases.LoginWithParamater@7dc3712]" started-at="2022-08-17T17:52:05 EDT" name="mybeforeMethod" finished-at="2022-08-17T17:52:11 EDT" duration-ms="6004" status="PASS">
+        <test-method is-config="true" signature="mybeforeMethod()[pri:0, instance:testCases.LoginWithParamater@7dc3712]" started-at="2022-08-24T10:06:56 EDT" name="mybeforeMethod" finished-at="2022-08-24T10:07:02 EDT" duration-ms="5800" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mybeforeMethod -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginWithParamater@7dc3712]" started-at="2022-08-17T17:52:11 EDT" name="loginTest" data-provider="getData" finished-at="2022-08-17T17:52:13 EDT" duration-ms="1928" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginWithParamater@7dc3712]" started-at="2022-08-24T10:07:02 EDT" name="loginTest" data-provider="getData" finished-at="2022-08-24T10:07:04 EDT" duration-ms="2634" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -95,17 +95,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginWithParamater@7dc3712]" started-at="2022-08-17T17:52:13 EDT" name="tearDown" finished-at="2022-08-17T17:52:13 EDT" duration-ms="686" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginWithParamater@7dc3712]" started-at="2022-08-24T10:07:04 EDT" name="tearDown" finished-at="2022-08-24T10:07:05 EDT" duration-ms="773" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.LoginWithParamater -->
       <class name="testCases.homePageTest">
-        <test-method is-config="true" signature="mybeforeMethod()[pri:0, instance:testCases.homePageTest@565f390]" started-at="2022-08-17T17:51:38 EDT" name="mybeforeMethod" finished-at="2022-08-17T17:51:45 EDT" duration-ms="6741" status="PASS">
+        <test-method is-config="true" signature="mybeforeMethod()[pri:0, instance:testCases.homePageTest@565f390]" started-at="2022-08-24T10:06:32 EDT" name="mybeforeMethod" finished-at="2022-08-24T10:06:37 EDT" duration-ms="5739" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mybeforeMethod -->
-        <test-method signature="titleValidation()[pri:0, instance:testCases.homePageTest@565f390]" started-at="2022-08-17T17:51:45 EDT" name="titleValidation" finished-at="2022-08-17T17:51:45 EDT" duration-ms="110" status="FAIL">
+        <test-method signature="titleValidation()[pri:0, instance:testCases.homePageTest@565f390]" started-at="2022-08-24T10:06:37 EDT" name="titleValidation" finished-at="2022-08-24T10:06:38 EDT" duration-ms="47" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [FEATURED COURSESs] but found [FEATURED COURSES]]]>
@@ -148,19 +148,19 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titleValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.homePageTest@565f390]" started-at="2022-08-17T17:51:47 EDT" name="tearDown" finished-at="2022-08-17T17:51:48 EDT" duration-ms="676" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.homePageTest@565f390]" started-at="2022-08-24T10:06:39 EDT" name="tearDown" finished-at="2022-08-24T10:06:40 EDT" duration-ms="680" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="mybeforeMethod()[pri:0, instance:testCases.homePageTest@565f390]" started-at="2022-08-17T17:51:48 EDT" name="mybeforeMethod" finished-at="2022-08-17T17:51:54 EDT" duration-ms="6604" status="PASS">
+        <test-method is-config="true" signature="mybeforeMethod()[pri:0, instance:testCases.homePageTest@565f390]" started-at="2022-08-24T10:06:40 EDT" name="mybeforeMethod" finished-at="2022-08-24T10:06:46 EDT" duration-ms="6242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mybeforeMethod -->
-        <test-method signature="validationOfNavbar()[pri:0, instance:testCases.homePageTest@565f390]" started-at="2022-08-17T17:51:54 EDT" name="validationOfNavbar" finished-at="2022-08-17T17:51:54 EDT" duration-ms="132" status="PASS">
+        <test-method signature="validationOfNavbar()[pri:0, instance:testCases.homePageTest@565f390]" started-at="2022-08-24T10:06:46 EDT" name="validationOfNavbar" finished-at="2022-08-24T10:06:46 EDT" duration-ms="74" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validationOfNavbar -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.homePageTest@565f390]" started-at="2022-08-17T17:51:54 EDT" name="tearDown" finished-at="2022-08-17T17:51:55 EDT" duration-ms="941" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.homePageTest@565f390]" started-at="2022-08-24T10:06:46 EDT" name="tearDown" finished-at="2022-08-24T10:06:47 EDT" duration-ms="732" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -11,10 +11,10 @@ public class HomePage extends BaseClass{
 	@FindBy (css="a[href*='sign_in']")
 	WebElement clickLogin;
 	
-	@FindBy (css="div[class='text-center'] h2")
+	private @FindBy (css="div[class='text-center'] h2")
 	WebElement title;
 	
-	@FindBy (css="nav[class='navbar-collapse collapse'] ul ")
+	private @FindBy (css="nav[class='navbar-collapse collapse'] ul ")
 	WebElement navbar;
 	
 	public HomePage() {

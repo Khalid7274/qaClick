@@ -8,6 +8,7 @@ import java.util.concurrent.TimeUnit;
 import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterSuite;
@@ -38,12 +39,16 @@ public class BaseClass {
 		FileInputStream fis=new FileInputStream(System.getProperty("user.dir") + "\\configration\\config.properties");
 		
 		prop.load(fis);
+		//String browserName=prop.getProperty("browser");
 		String browserName=System.getProperty("browser");
+		ChromeOptions options=new ChromeOptions();
+		options.addArguments("--headless");
+		
 		
 		if(browserName.equalsIgnoreCase("chrome")) {
 			//execute in Chrome driver 
 			WebDriverManager.chromedriver().setup();
-			driver=new ChromeDriver();
+			driver=new ChromeDriver(options);
 			System.out.println("Browser is: "+prop.getProperty("browser"));
 		}else if(browserName.equalsIgnoreCase("firefox")){
 			//execute in firefox driver

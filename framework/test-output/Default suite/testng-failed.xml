@@ -5,6 +5,7 @@
     <classes>
       <class name="testCases.homePageTest">
         <methods>
+          <include name="validationOfNavbar"/>
           <include name="tearDown"/>
           <include name="beforesuite"/>
           <include name="titleValidation"/>
